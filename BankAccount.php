@@ -14,7 +14,7 @@
     }
 
     public function withdraw($amount) {
-        if ($amount > 0 && $amount < $this->balance) {
+        if ($amount > 0 && $amount <= $this->balance) {
             $this->balance -= $amount;
         }
         else {
