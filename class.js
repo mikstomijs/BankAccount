@@ -33,7 +33,3 @@ class BankAccount {
 }
 
 
-let janis = new BankAccount('janis', 1200);
-janis.deposit(1200);    
-janis.withdraw(-1200);
-janis.printInfo();
